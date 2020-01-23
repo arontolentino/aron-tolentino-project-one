@@ -198,10 +198,36 @@ img {
 	padding: 0 20px;
 }
 
+h2 {
+	font-size: 3.2rem;
+	line-height: 2.6rem;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 2.4rem;
+	line-height: 2.6rem;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 2.9rem;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.btn {
+	font-size: 1.5rem;
+	font-weight: 700;
+	background-color: #8dd7e9;
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+}
+
 /* HEADER */
 header {
 	background-image: url(assets/asset-1.jpg);
-	height: 100vh;
+	height: 90vh;
 	background-position: bottom;
 	background-size: cover;
 	color: #fff;
@@ -275,7 +301,24 @@ nav li {
 
 /* ABOUT */
 
+.about {
+	text-align: center;
+	padding: 9rem 0;
+}
+
+.about p {
+	margin-bottom: 3rem;
+}
+
+.aboutContent {
+	width: 70%;
+	margin: 0 auto;
+}
+
 /* FEATURES */
+.features {
+	background-color: #eee;
+}
 
 /* NAVIGATION */
 
