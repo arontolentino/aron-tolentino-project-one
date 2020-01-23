@@ -177,7 +177,29 @@ input::-moz-focus-inner {
 	overflow: hidden;
 }
 
+/* GENERAL */
+
+html {
+	font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+}
+
 /* HEADER */
+header {
+	background-image: url(assets/asset-1.jpg);
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	padding: 10px 0;
+}
+
+.wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+}
 
 /* ABOUT */
 
