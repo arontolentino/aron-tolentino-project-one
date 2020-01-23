@@ -188,7 +188,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 }
 
 .wrapper {
@@ -200,20 +200,23 @@ img {
 
 h2 {
 	font-size: 3.2rem;
-	line-height: 2.6rem;
+	line-height: 0;
+	margin-bottom: 2.6rem;
 	text-transform: uppercase;
 }
 
 h3 {
 	font-size: 2.4rem;
-	line-height: 2.6rem;
+	line-height: 0;
+	margin-bottom: 2.6rem;
 	text-transform: uppercase;
 }
 
 p {
-	font-size: 1.8rem;
-	line-height: 2.9rem;
+	font-size: 1.4rem;
+	line-height: 2.7rem;
 	font-family: 'Noto Sans', sans-serif;
+	margin-bottom: 3rem;
 }
 
 .btn {
@@ -273,7 +276,7 @@ nav li {
 	transform: translate(-50%, -50%);
 }
 
-.heroHighlight {
+.hero-highlight {
 	display: block;
 	font-size: 10rem;
 }
@@ -306,11 +309,7 @@ nav li {
 	padding: 9rem 0;
 }
 
-.about p {
-	margin-bottom: 3rem;
-}
-
-.aboutContent {
+.about-content {
 	width: 70%;
 	margin: 0 auto;
 }
@@ -320,7 +319,75 @@ nav li {
 	background-color: #eee;
 }
 
-/* NAVIGATION */
+.feature-right,
+.feature-left {
+	height: 400px;
+}
+
+.content-wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.feature-right .feature-image {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.feature-right .feature-content {
+	text-align: center;
+	float: right;
+	width: 50%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.feature-right .content-wrapper {
+	max-width: 540px;
+}
+
+.feature-right .feature-image {
+	background: url(./assets/asset-2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.feature-left .feature-image {
+	background: url(./assets/asset-3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.feature-left .feature-content {
+	text-align: center;
+	float: left;
+	width: 50%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.feature-left .content-wrapper {
+	max-width: 540px;
+}
+
+.feature-left .feature-image {
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+/* PAGE LINKS */
+.page-links {
+	margin: 75px auto;
+	background-color: lightblue;
+}
+
+.page-link {
+	display: inline-block;
+}
 
 /* GALLERY */
 

@@ -19,12 +19,13 @@
 		<link rel="stylesheet" href="styles.css" />
 		<title>Summit</title>
 	</head>
+
 	<body>
 		<header>
 			<div class="wrapper">
 				<nav class="clearfix">
 					<a href="" class="logo">Summit</a>
-					<ul class="navItems">
+					<ul class="nav-items">
 						<li><a href="">Home</a></li>
 						<li><a href="">About</a></li>
 						<li><a href="">Blog</a></li>
@@ -33,7 +34,7 @@
 				</nav>
 
 				<div class="hero">
-					<h1>Welcome to <span class="heroHighlight">Summit</span></h1>
+					<h1>Welcome to <span class="hero-highlight">Summit</span></h1>
 				</div>
 
 				<div class="social">
@@ -60,7 +61,7 @@
 		<main>
 			<section class="about">
 				<div class="wrapper">
-					<div class="aboutContent">
+					<div class="about-content">
 						<h2>About Summit</h2>
 						<p>
 							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -74,27 +75,25 @@
 			</section>
 
 			<section class="features">
-				<div class="wrapper">
-					<div class="featureRight">
-						<div class="featureImage">
-							<img src="./assets/asset-2.jpg" alt="" />
-						</div>
-						<div class="featureContent">
+				<div class="feature-right clearfix">
+					<div class="feature-image"></div>
+					<div class="feature-content">
+						<div class="content-image">
 							<h3>Peak Photos</h3>
 							<p>
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 								Tempore incidunt perferendis eligendi ducimus reiciendis quam
-								voluptatibus, autem fugiat iure iusto sunt aut a numquam
-								explicabo quasi quisquam aliquid. Possimus, quidem!
+								voluptatibus, autem fugiat iure iusto sunt.
 							</p>
-							<button>Read More</button>
+							<a class="btn">Read More</a>
 						</div>
 					</div>
-					<div class="featureLeft">
-						<div class="featureImage">
-							<img src="./assets/asset-3.jpg" alt="" />
-						</div>
-						<div class="featureContent">
+				</div>
+
+				<div class="feature-left clearfix">
+					<div class="feature-image"></div>
+					<div class="feature-content">
+						<div class="feature-content-wrapper">
 							<h3>Packing Essentials</h3>
 							<p>
 								Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -102,33 +101,35 @@
 								voluptatibus, autem fugiat iure iusto sunt aut a numquam
 								explicabo quasi quisquam aliquid. Possimus, quidem!
 							</p>
-							<button>Read More</button>
+							<a class="btn">Read More</a>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="pageLinks">
-				<div class="pageLink">
-					<i></i>
-					<h4>Gallery</h4>
-				</div>
-				<div class="pageLink">
-					<i></i>
-					<h4>About</h4>
-				</div>
-				<div class="pageLink">
-					<i></i>
-					<h4>Contact</h4>
+			<section class="page-links">
+				<div class="wrapper">
+					<div class="page-link">
+						<i>Icon placeholder</i>
+						<h4>Gallery</h4>
+					</div>
+					<div class="page-link">
+						<i>Icon placeholder</i>
+						<h4>About</h4>
+					</div>
+					<div class="page-link">
+						<i>Icon placeholder</i>
+						<h4>Contact</h4>
+					</div>
 				</div>
 			</section>
 
-			<section class="aboutMe">
+			<section class="about-me">
 				<div class="wrapper">
-					<div class="aboutMeImage">
+					<div class="about-me-image">
 						<img src="./assets/asset-7.png" alt="" />
 					</div>
-					<div class="aboutMeContent">
+					<div class="about-me-content">
 						<h2>About Me</h2>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, enim
@@ -153,16 +154,16 @@
 		</main>
 
 		<footer>
-			<div class="topFooter">
+			<div class="top-footer">
 				<div class="newsletter">
-					<h5 class="footerHeader">Stay Updated</h5>
+					<h5 class="footer-header">Stay Updated</h5>
 					<p>Subscribe to our newsletter for updates</p>
 					<input type="text" />
 					<button>Subscribe</button>
 				</div>
 
 				<div class="contact">
-					<h5 class="footerHeader">Contact</h5>
+					<h5 class="footer-header">Contact</h5>
 					<ul>
 						<li>info@email.com</li>
 						<li>123-456-7890</li>
@@ -170,7 +171,7 @@
 					</ul>
 				</div>
 				<div class="pages">
-					<h5 class="footerHeader">Contact</h5>
+					<h5 class="footer-header">Contact</h5>
 					<ul>
 						<li>Home</li>
 						<li>About</li>
@@ -178,8 +179,8 @@
 						<li>Contact</li>
 					</ul>
 				</div>
-				<div class="recentPosts">
-					<h5 class="footerHeader">Recent Posts</h5>
+				<div class="recent-posts">
+					<h5 class="footer-header">Recent Posts</h5>
 					<ul>
 						<li>Climbing Tips</li>
 						<li>Photography Guide</li>
@@ -188,7 +189,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="bottomFooter">
+			<div class="bottom-footer">
 				<p>Copyright 2018 HackerYou</p>
 			</div>
 		</footer>
