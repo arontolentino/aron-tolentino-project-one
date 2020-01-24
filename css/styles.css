@@ -199,31 +199,32 @@ body {
 }
 
 h2 {
-	font-size: 3.2rem;
+	font-size: 3.3rem;
 	line-height: 0;
-	margin-bottom: 2.6rem;
+	margin-top: 0;
+	margin-bottom: 3.5rem;
 	text-transform: uppercase;
 }
 
 h3 {
 	font-size: 2.4rem;
+	margin-top: 0;
 	line-height: 0;
-	margin-bottom: 2.6rem;
 	text-transform: uppercase;
 }
 
 p {
-	font-size: 1.4rem;
-	line-height: 2.7rem;
+	font-size: 1.45rem;
+	line-height: 2.45rem;
 	font-family: 'Noto Sans', sans-serif;
-	margin-bottom: 3rem;
+	margin-bottom: 2.5rem;
 }
 
 .btn {
 	font-size: 1.5rem;
 	font-weight: 700;
 	background-color: #8dd7e9;
-	padding: 1rem 3rem;
+	padding: 0.9rem 2.6rem;
 	text-transform: uppercase;
 }
 
@@ -310,7 +311,7 @@ nav li {
 }
 
 .about-content {
-	width: 70%;
+	width: 60%;
 	margin: 0 auto;
 }
 
@@ -390,7 +391,32 @@ nav li {
 
 .page-link i {
 	font-size: 3.1rem;
-	margin-bottom: 1.5rem;
+	margin-bottom: 3.5rem;
+}
+
+/* ABOUT ME */
+.about-me {
+	padding: 8rem 0;
+}
+
+.about-me-image {
+	float: left;
+	width: 25%;
+}
+
+.about-me-image img {
+	display: block;
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	object-position: bottom;
+}
+
+.about-me-content {
+	float: right;
+	width: calc(75% - 3rem);
+	margin-left: 3rem;
+	margin-top: 2.2rem;
 }
 
 /* GALLERY */
