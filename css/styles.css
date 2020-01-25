@@ -262,14 +262,15 @@ nav a:visited {
 }
 
 nav ul {
-	font-size: 3.2rem;
+	margin: 1.6rem 0;
 	float: right;
+	list-style: none;
 }
 
 nav li {
 	font-size: 1.3rem;
 	margin-left: 2rem;
-	display: inline-block;
+	float: left;
 }
 
 .hero {
