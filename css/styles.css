@@ -192,6 +192,7 @@ html {
 
 body {
 	font-family: 'Poppins', sans-serif;
+	color: #0f0f0f;
 }
 
 /* img {
@@ -235,6 +236,11 @@ img {
 	background-color: #8dd7e9;
 	padding: 0.9rem 2.6rem;
 	text-transform: uppercase;
+	transition: ease 0.3s;
+}
+
+.btn:hover {
+	background-color: #3ea5be;
 }
 
 /* HEADER */
@@ -279,11 +285,8 @@ nav li {
 
 .burger-menu {
 	color: #fff;
-	font-size: 25px;
-	color: #fff;
-	font-size: 25px;
+	font-size: 2.2rem;
 	float: right;
-	padding-top: 0.8rem;
 	display: none;
 }
 
@@ -312,7 +315,7 @@ nav li {
 	font-size: 1.3rem;
 	line-height: 5.8rem;
 	text-align: center;
-	padding-top: 17.5rem;
+	padding-top: 10rem;
 }
 
 .hero-highlight {
@@ -361,7 +364,7 @@ nav li {
 
 /* FEATURES */
 .features {
-	background-color: rgba(0, 0, 0, 0.295);
+	background-color: #f6f6f6;
 }
 
 .feature-right,
@@ -448,7 +451,7 @@ nav li {
 /* ABOUT ME */
 .about-me {
 	padding: 8rem 0;
-	background-color: #eee;
+	background-color: #f6f6f6;
 }
 
 .about-me-image {
@@ -494,6 +497,11 @@ nav li {
 
 .gallery img {
 	display: block;
+	transition: 0.5s ease;
+}
+
+.gallery img:hover {
+	transform: scale(1.05);
 }
 
 /* FOOTER */
@@ -559,8 +567,7 @@ nav li {
 .footer-column li {
 	font-size: 1.45rem;
 	font-family: 'Noto Sans', sans-serif;
-	font-weight: 400;
-	margin: 0.3rem 0;
+	margin: 0.4rem 0;
 }
 
 .footer-column a,
@@ -746,6 +753,15 @@ nav li {
 }
 
 @media only screen and (max-width: 474px) {
+	h1 {
+		font-size: 2.1rem;
+		line-height: 4.7rem;
+	}
+
+	.logo {
+		font-size: 2.4rem;
+	}
+
 	.hero {
 		padding-top: 10rem;
 	}
@@ -754,7 +770,8 @@ nav li {
 		font-size: 6.5rem;
 	}
 
-	.nav-items {
+	.nav-items,
+	.social {
 		display: none;
 	}
 
@@ -762,28 +779,25 @@ nav li {
 		display: block;
 	}
 
-	.social {
-		display: none;
-	}
-
-	.about-content p {
+	.about-me-image,
+	.about-me-content,
+	.about-content p,
+	.footer-newsletter form {
 		width: 100%;
 	}
 
-	.about-me-image {
-		width: 100%;
+	.about-me-image img {
+		width: 90%;
 	}
 
-	.about-me-content {
-		width: 100%;
-	}
-
-	.top-footer {
+	.page-links,
+	.top-footer,
+	.about-me {
 		padding: 5rem 0;
 	}
 
-	.footer-newsletter form {
-		width: 100%;
+	.about {
+		padding: 6rem 0;
 	}
 
 	.footer-newsletter input {
@@ -806,7 +820,4 @@ nav li {
 	.footer-column:not(:last-child) {
 		padding-bottom: 2rem;
 	}
-}
-
-@media only screen and (max-width: 320px) {
 }
