@@ -27,12 +27,20 @@
 			<div class="wrapper">
 				<nav class="clearfix">
 					<a href="" class="logo">Summit</a>
-					<ul class="nav-items">
-						<li><a href="">Home</a></li>
-						<li><a href="">About</a></li>
-						<li><a href="">Blog</a></li>
-						<li><a href="">Contact</a></li>
+					<ul class="nav-items" id="nav-items">
+						<li id="nav-home"><a href="">Home</a></li>
+						<li id="nav-about"><a href="">About</a></li>
+						<li id="nav-blog"><a href="">Blog</a></li>
+						<li id="nav-contact"><a href="">Contact</a></li>
 					</ul>
+					<div class="burger-menu">
+						<a
+							href="javascript:void(0);"
+							onclick="mobileMenu()"
+						>
+							<i class="fa fa-bars"></i>
+						</a>
+					</div>
 				</nav>
 
 				<div class="hero">
@@ -55,7 +63,7 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+			</divclass="burger-menu">
 		</header>
 
 		<main>
@@ -145,7 +153,9 @@
 							accusantium voluptatibus.Deserunt corrupti, distinctio
 							perspiciatis mollitia rem consequuntur suscipit provident esse?
 						</p>
-						<a class="btn">Find Out More</a>
+						<div class="about-me-btn">
+							<a class="btn">Find Out More</a>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -164,7 +174,7 @@
 		<footer>
 			<div class="top-footer">
 				<div class="wrapper clearfix">
-					<div class="footer-column newsletter">
+					<div class="footer-newsletter">
 						<h4 class="footer-header">Stay Updated</h4>
 						<p>Subscribe to our newsletter for updates</p>
 						<form class="clearfix">
@@ -173,39 +183,42 @@
 						</form>
 					</div>
 
-					<div class="footer-column contact">
-						<h4 class="footer-header">Contact</h4>
-						<ul>
-							<li>info@email.com</li>
-							<li>123-456-7890</li>
-							<li>123 some road,</li>
-							<li>Toronto, ON</li>
-						</ul>
-					</div>
-					<div class="footer-column pages">
-						<h4 class="footer-header">Pages</h4>
-						<ul>
-							<li><a href="">Home</a>	</li>
-							<li><a href="">About</a></li>
-							<li><a href="">Blog</a></li>
-							<li><a href="">Contact</a></li>
-						</ul>
-					</div>
-					<div class="footer-column recent-posts">
-						<h4 class="footer-header">Recent Posts</h4>
-						<ul>
-							<li><a href="">Climbing Tips</a></li>
-							<li><a href="">Photography Guide</a></li>
-							<li><a href="">Top Mountains</a></li>
-							<li><a href="">Everest</a></li>
-						</ul>
+					<div class="footer-nav clearfix">
+						<div class="footer-column contact">
+							<h4 class="footer-header">Contact</h4>
+							<ul>
+								<li>info@email.com</li>
+								<li>123 - 456 - 7890</li>
+								<li>123 some road,</li>
+								<li>Toronto, ON</li>
+							</ul>
+						</div>
+						<div class="footer-column pages">
+							<h4 class="footer-header">Pages</h4>
+							<ul>
+								<li><a href="">Home</a></li>
+								<li><a href="">About</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Contact</a></li>
+							</ul>
+						</div>
+						<div class="footer-column recent-posts">
+							<h4 class="footer-header">Recent Posts</h4>
+							<ul>
+								<li><a href="">Climbing Tips</a></li>
+								<li><a href="">Photography Guide</a></li>
+								<li><a href="">Top Mountains</a></li>
+								<li><a href="">Everest</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="bottom-footer">
 				<p>Copyright © 2018 HackerYou</p>
 			</div>
-			</div>
 		</footer>
+
+		<script src="./scripts/scripts.js"></script>
 	</body>
 </html>
