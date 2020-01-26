@@ -28,10 +28,10 @@
 				<nav class="clearfix">
 					<a href="" class="logo">Summit</a>
 					<ul class="nav-items" id="nav-items">
-						<li id="nav-home"><a href="">Home</a></li>
-						<li id="nav-about"><a href="">About</a></li>
-						<li id="nav-blog"><a href="">Blog</a></li>
-						<li id="nav-contact"><a href="">Contact</a></li>
+						<li id="nav-home"><a accesskey="h" href="">Home</a></li>
+						<li id="nav-about"><a accesskey="a" href="">About</a></li>
+						<li id="nav-blog"><a accesskey="b" href="">Blog</a></li>
+						<li id="nav-contact"><a accesskey="c" href="">Contact</a></li>
 					</ul>
 					<div class="burger-menu">
 						<a
@@ -85,7 +85,7 @@
 			<section class="features">
 				<div class="feature-right clearfix">
 					<div class="feature-image">
-						<img src="./images/asset-2.jpg" alt="" />
+						<img src="./images/asset-2.jpg" alt="Portrait shot of Mt. Fuji" />
 					</div>
 					<div class="feature-content clearfix">
 						<div class="content-wrapper">
@@ -102,7 +102,7 @@
 
 				<div class="feature-left clearfix">
 					<div class="feature-image">
-						<img src="./images/asset-3.jpg" alt="" />
+						<img src="./images/asset-3.jpg" alt="Airplane flying over the himalayas" />
 					</div>
 					<div class="feature-content clearfix">
 						<div class="content-wrapper">
@@ -138,7 +138,7 @@
 			<section class="about-me">
 				<div class="wrapper clearfix">
 					<div class="about-me-image">
-						<img src="images/asset-7.png" alt="" />
+						<img src="images/asset-7.png" alt="Female founder of Summit" />
 					</div>
 					<div class="about-me-content">
 						<h2>About Me</h2>
@@ -163,9 +163,9 @@
 			<section class="gallery">
 				<div class="wrapper">
 					<ul>
-						<li><img src="images/asset-4.jpg" alt="" /></li>
-						<li><img src="images//asset-5.jpg" alt="" /></li>
-						<li><img src="images/asset-6.jpg" alt="" /></li>
+						<li><img src="images/asset-4.jpg" alt="Portrait shot of the himalayas" /></li>
+						<li><img src="images//asset-5.jpg" alt="Snow at the top of Mt. Fuji" /></li>
+						<li><img src="images/asset-6.jpg" alt="Lake at the bottom of Mt. Fuji" /></li>
 					</ul>
 				</div>
 			</section>
@@ -178,7 +178,8 @@
 						<h4 class="footer-header">Stay Updated</h4>
 						<p>Subscribe to our newsletter for updates</p>
 						<form class="clearfix">
-							<input type="text" placeholder="email address" />
+							<label for="email" class="visuallyHidden">Email:</label>
+							<input type="text" name="email" placeholder="email address" />
 							<a class="btn">Subscribe</a>
 						</form>
 					</div>
@@ -193,15 +194,17 @@
 								<li>Toronto, ON</li>
 							</ul>
 						</div>
+
 						<div class="footer-column pages">
 							<h4 class="footer-header">Pages</h4>
 							<ul>
-								<li><a href="">Home</a></li>
-								<li><a href="">About</a></li>
-								<li><a href="">Blog</a></li>
-								<li><a href="">Contact</a></li>
+								<li><a accesskey="h" href="">Home</a></li>
+								<li><a accesskey="a" href="">About</a></li>
+								<li><a accesskey="b" href="">Blog</a></li>
+								<li><a accesskey="c" href="">Contact</a></li>
 							</ul>
 						</div>
+
 						<div class="footer-column recent-posts">
 							<h4 class="footer-header">Recent Posts</h4>
 							<ul>
@@ -214,6 +217,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="bottom-footer">
 				<p>Copyright © 2018 HackerYou</p>
 			</div>
